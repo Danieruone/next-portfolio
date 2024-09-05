@@ -3,7 +3,7 @@ import { Hero } from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="w-full border border-red">
+    <div className="w-full border border-white">
       <Hero />
     </div>
   );
