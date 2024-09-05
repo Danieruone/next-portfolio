@@ -1,7 +1,10 @@
+// components
+import { Hero } from "@/components/Hero";
+
 export default function Home() {
   return (
-    <main>
-      <div>Hello world</div>
-    </main>
+    <div className="w-full border border-red">
+      <Hero />
+    </div>
   );
 }
