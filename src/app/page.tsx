@@ -2,6 +2,7 @@
 import { AboutMe } from "@/components/AboutMe";
 import { Hero } from "@/components/Hero";
 import { NetworkSection } from "@/components/NetworkSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -9,10 +10,7 @@ export default function Home() {
       <Hero />
       <NetworkSection />
       <AboutMe />
-
-      <div className="mt-10">
-        <h2 className="font-light">My proyects</h2>
-      </div>
+      <ProjectsSection />
     </div>
   );
 }
