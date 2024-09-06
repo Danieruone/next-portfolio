@@ -6,7 +6,7 @@ import { ReactTyped } from "react-typed";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col items-center py-10">
+    <div className="flex flex-col items-center pb-10">
       <Image
         src={"/profile.jpg"}
         width={200}
@@ -19,8 +19,11 @@ export const Hero = () => {
       </h1>
       <p className="font-light">
         <ReactTyped
-          strings={["Software engineer / Front-end developer"]}
-          typeSpeed={60}
+          strings={[
+            "Software engineer / Front-end developer",
+            "Changing the world through technology",
+          ]}
+          typeSpeed={100}
         />
       </p>
     </div>

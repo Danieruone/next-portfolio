@@ -13,7 +13,6 @@ export const NetworkSection = () => {
     <div className="flex justify-center">
       <NetworkChip icon={<RiLinkedinBoxFill size={20} />} title="Linkedin" />
       <NetworkChip icon={<FaGithub size={20} />} title="Github" />
-      <NetworkChip icon={<FaSquareXTwitter size={20} />} title="Twitter" />
     </div>
   );
 };
