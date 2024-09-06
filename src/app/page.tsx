@@ -1,8 +1,9 @@
 // components
-import { AboutMe } from "@/components/AboutMe";
 import { Hero } from "@/components/Hero";
 import { NetworkSection } from "@/components/NetworkSection";
+import { AboutMe } from "@/components/AboutMe";
 import { ProjectsSection } from "@/components/ProjectsSection";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <NetworkSection />
       <AboutMe />
       <ProjectsSection />
+      <Footer />
     </div>
   );
 }
