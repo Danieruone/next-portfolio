@@ -10,7 +10,7 @@ export const Hero = () => {
       <Image
         src={"/profile.jpg"}
         width={200}
-        height={100}
+        height={200}
         alt="Profile image"
         className="rounded-full aspect-square object-cover object-[top]"
       />
