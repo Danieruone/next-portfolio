@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#212224] text-white`}>
-        <main className="container mx-auto py-20">{children}</main>
+        <main className="container mx-auto py-20 px-5">{children}</main>
       </body>
     </html>
   );
