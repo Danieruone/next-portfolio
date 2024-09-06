@@ -10,7 +10,6 @@ export const ProjectsSection = () => {
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
-        <ProjectCard />
       </div>
     </div>
   );
