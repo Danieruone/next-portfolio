@@ -14,15 +14,12 @@ export const Hero = () => {
         alt="Profile image"
         className="rounded-full aspect-square object-cover object-[top]"
       />
-      <h1 className="mt-5 mb-3 font-semibold text-5xl text-center">
+      <h1 className="mt-5 mb-3 font-bold text-5xl text-center">
         Daniel Mendoza
       </h1>
-      <p>
+      <p className="font-semibold">
         <ReactTyped
-          strings={[
-            "Software engineer / Front-end developer",
-            "Changing the world through technology",
-          ]}
+          strings={["Software engineer / Front-end developer"]}
           typeSpeed={100}
         />
       </p>
