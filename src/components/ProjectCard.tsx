@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-// icons
-import { FaGithub } from "react-icons/fa";
+import { GithubTooltip } from "./GithubTooltip";
 
 const defaultImage =
   "https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=800";
@@ -13,12 +11,14 @@ export const ProjectCard = ({
   description,
   techStack,
   projectLink,
+  githubLink,
 }: {
   image?: string;
   title: string;
   description: string;
   techStack: string[];
   projectLink: string;
+  githubLink: string;
 }) => {
   return (
     <a
@@ -30,7 +30,7 @@ export const ProjectCard = ({
         <div className="flex justify-between items-center">
           <h2>{title}</h2>
           <div className="flex">
-            <FaGithub className="mr-2" size={20} />
+            <GithubTooltip link={githubLink} />
           </div>
         </div>
         <p className="text-[.9rem] text-[#888b8f] h-10 my-2">{description}</p>

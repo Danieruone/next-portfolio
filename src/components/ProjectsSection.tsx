@@ -12,6 +12,7 @@ export const ProjectsSection = () => {
           description="A perfect UI clone with hover video functionality."
           techStack={["React"]}
           projectLink="https://netflix-ui-alpha.vercel.app/"
+          githubLink="https://github.com/Danieruone/netflix-ui"
         />
         <ProjectCard
           image="/projects/music-finder.png"
@@ -19,6 +20,7 @@ export const ProjectsSection = () => {
           description="A music finder implementing the Spotify API to search any song."
           techStack={["React"]}
           projectLink="https://music-finder.vercel.app/"
+          githubLink="https://github.com/Danieruone/music-finder"
         />
       </div>
     </section>
