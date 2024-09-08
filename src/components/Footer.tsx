@@ -7,7 +7,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className="pt-10">
+    <footer className="pt-10">
       <h1 className="font-semibold text-2xl text-[#E2E3E3]">
         Let’s work together!
       </h1>
@@ -20,6 +20,6 @@ export const Footer = () => {
           <FaExternalLinkAlt />
         </div>
       </div>
-    </div>
+    </footer>
   );
 };

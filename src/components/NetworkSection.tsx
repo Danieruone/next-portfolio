@@ -11,8 +11,16 @@ import { NetworkChip } from "./NetworkChip";
 export const NetworkSection = () => {
   return (
     <div className="flex justify-center">
-      <NetworkChip icon={<RiLinkedinBoxFill size={20} />} title="Linkedin" />
-      <NetworkChip icon={<FaGithub size={20} />} title="Github" />
+      <NetworkChip
+        icon={<RiLinkedinBoxFill size={20} />}
+        title="Linkedin"
+        link="https://www.linkedin.com/in/daniel-mendoza-developer/"
+      />
+      <NetworkChip
+        icon={<FaGithub size={20} />}
+        title="Github"
+        link="https://github.com/Danieruone"
+      />
     </div>
   );
 };
