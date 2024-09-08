@@ -3,7 +3,7 @@ import React from "react";
 
 export const ProjectCard = () => {
   return (
-    <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 cursor-pointer transition-all">
+    <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 cursor-pointer transition-all hover:bg-gray-700">
       <div className="my-3">
         <h2>My app</h2>
         <p className="text-[.9rem] text-[#888b8f]">Description of the app</p>
