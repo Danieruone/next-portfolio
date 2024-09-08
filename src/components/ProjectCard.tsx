@@ -3,7 +3,6 @@ import Image from "next/image";
 
 // icons
 import { FaGithub } from "react-icons/fa";
-import { MdWeb } from "react-icons/md";
 
 export const ProjectCard = () => {
   return (
