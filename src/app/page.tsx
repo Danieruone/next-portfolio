@@ -7,12 +7,19 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full">
-      <Hero />
-      <NetworkSection />
-      <AboutMe />
-      <ProjectsSection />
-      <Footer />
+    <div className="w-full pb-20">
+      <div className="relative bg-[url('/bg-code.jpg')] bg-cover pt-20 pb-10 text-gray-800">
+        <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div className="px-5 relative z-20">
+          <Hero />
+          <NetworkSection />
+        </div>
+      </div>
+      <div className="container mx-auto px-5">
+        <AboutMe />
+        <ProjectsSection />
+        <Footer />
+      </div>
     </div>
   );
 }
