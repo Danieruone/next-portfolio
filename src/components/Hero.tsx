@@ -6,7 +6,7 @@ import { ReactTyped } from "react-typed";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col items-center pb-10">
+    <div className="flex flex-col items-center pb-10 text-white">
       <Image
         src={"/profile.jpg"}
         width={200}
