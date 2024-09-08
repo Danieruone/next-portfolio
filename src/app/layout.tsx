@@ -20,7 +20,7 @@ export default function RootLayout({
         className={`${inter.className} bg-[#212224] text-white`}
         suppressHydrationWarning={true}
       >
-        <main className="container mx-auto py-20 px-5">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );

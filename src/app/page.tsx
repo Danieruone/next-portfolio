@@ -7,12 +7,16 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full">
-      <Hero />
-      <NetworkSection />
-      <AboutMe />
-      <ProjectsSection />
-      <Footer />
+    <div className="w-full pb-20">
+      <div className="bg bg-blue-400 pt-20 pb-10 text-gray-800">
+        <Hero />
+        <NetworkSection />
+      </div>
+      <div className="container mx-auto">
+        <AboutMe />
+        <ProjectsSection />
+        <Footer />
+      </div>
     </div>
   );
 }
