@@ -12,14 +12,20 @@ export const ProjectCard = ({
   title,
   description,
   techStack,
+  projectLink,
 }: {
   image?: string;
   title: string;
   description: string;
   techStack: string[];
+  projectLink: string;
 }) => {
   return (
-    <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 cursor-pointer transition-all hover:bg-gray-700">
+    <a
+      href={projectLink}
+      target="_blank"
+      className="w-80 h-80 bg-[#333639] rounded-lg px-2 cursor-pointer transition-all hover:bg-gray-700"
+    >
       <div className="my-3">
         <div className="flex justify-between items-center">
           <h2>{title}</h2>
@@ -48,6 +54,6 @@ export const ProjectCard = ({
           </h3>
         ))}
       </div>
-    </div>
+    </a>
   );
 };
