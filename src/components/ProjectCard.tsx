@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { GithubTooltip } from "./GithubTooltip";
+
+// components
+import { IconTooltip } from "./IconTooltip";
+
+// icons
+import { FaGithub } from "react-icons/fa6";
+import { FaCirclePlay } from "react-icons/fa6";
 
 const defaultImage =
   "https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=800";
@@ -21,16 +27,21 @@ export const ProjectCard = ({
   githubLink: string;
 }) => {
   return (
-    <a
-      href={projectLink}
-      target="_blank"
-      className="w-80 h-80 bg-[#333639] rounded-lg px-2 cursor-pointer transition-all hover:bg-gray-700"
-    >
+    <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 transition-all">
       <div className="my-3">
         <div className="flex justify-between items-center">
           <h2>{title}</h2>
           <div className="flex">
-            <GithubTooltip link={githubLink} />
+            <IconTooltip
+              link={projectLink}
+              icon={<FaCirclePlay size={20} className="mr-2" />}
+              label={"Click to see the live demo"}
+            />
+            <IconTooltip
+              link={githubLink}
+              icon={<FaGithub size={20} />}
+              label={"Click to see the GitHub repo"}
+            />
           </div>
         </div>
         <p className="text-[.9rem] text-[#888b8f] h-10 my-2">{description}</p>
@@ -54,6 +65,6 @@ export const ProjectCard = ({
           </h3>
         ))}
       </div>
-    </a>
+    </div>
   );
 };
