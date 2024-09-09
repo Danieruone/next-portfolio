@@ -19,6 +19,7 @@ export const IconTooltip = ({
       onMouseLeave={() => setShowTooltip(false)}
       href={link}
       target="_blank"
+      aria-label={label}
     >
       {icon}
       <div
