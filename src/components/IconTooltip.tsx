@@ -14,7 +14,7 @@ export const IconTooltip = ({
   const [showTooltip, setShowTooltip] = useState<boolean>(false);
   return (
     <a
-      className="relative"
+      className="relative p-2"
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
       href={link}
