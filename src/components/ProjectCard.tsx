@@ -8,18 +8,15 @@ import { IconTooltip } from "./IconTooltip";
 import { FaGithub } from "react-icons/fa6";
 import { FaCirclePlay } from "react-icons/fa6";
 
-const defaultImage =
-  "https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=800";
-
 export const ProjectCard = ({
-  image = defaultImage,
+  image,
   title,
   description,
   techStack,
   projectLink,
   githubLink,
 }: {
-  image?: string;
+  image: string;
   title: string;
   description: string;
   techStack: string[];
