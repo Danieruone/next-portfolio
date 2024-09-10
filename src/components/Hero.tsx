@@ -13,6 +13,7 @@ export const Hero = () => {
         height={200}
         alt="Profile image"
         className="rounded-full aspect-square object-cover object-[top]"
+        priority
       />
       <h1 className="mt-5 mb-3 font-bold text-5xl text-center">
         Daniel Mendoza
