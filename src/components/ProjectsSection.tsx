@@ -7,7 +7,7 @@ export const ProjectsSection = () => {
       <h2 className="font-light">My projects</h2>
       <div className="mt-5 flex flex-wrap gap-5 justify-center">
         <ProjectCard
-          image="/projects/netflix-clone.png"
+          image="/projects/netflix-clone.webp"
           title="Netflix clone"
           description="A perfect UI clone with hover video functionality."
           techStack={["React"]}
@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
           githubLink="https://github.com/Danieruone/netflix-ui"
         />
         <ProjectCard
-          image="/projects/music-finder.png"
+          image="/projects/music-finder.webp"
           title="Music finder"
           description="A music finder implementing the Spotify API to search any song."
           techStack={["React"]}

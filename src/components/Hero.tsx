@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <div className="flex flex-col items-center pb-10 text-white">
       <Image
-        src={"/profile.jpg"}
+        src={"/profile.webp"}
         width={200}
         height={200}
         alt="Profile image"
