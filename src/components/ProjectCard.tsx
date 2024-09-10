@@ -44,7 +44,7 @@ export const ProjectCard = ({
             />
           </div>
         </div>
-        <p className="text-[.9rem] text-[#888b8f] h-10 my-2">{description}</p>
+        <p className="text-[.9rem] text-[#a7a7a7] h-10 my-2">{description}</p>
       </div>
       <div className="flex justify-center m-1">
         <Image
@@ -58,7 +58,7 @@ export const ProjectCard = ({
       <div className="mt-5">
         {techStack.map((technology, key) => (
           <h3
-            className="border border-gray-500 inline-block px-2 rounded-xl text-sm font-light mr-1 text-[#888b8f]"
+            className="border border-gray-500 inline-block px-2 rounded-xl text-sm font-light mr-1 text-[#a7a7a7]"
             key={key}
           >
             {technology}
