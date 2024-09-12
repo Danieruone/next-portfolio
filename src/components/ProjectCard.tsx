@@ -21,7 +21,7 @@ export const ProjectCard = ({
   description: string;
   techStack: string[];
   projectLink: string;
-  githubLink: string;
+  githubLink?: string;
 }) => {
   return (
     <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 transition-all">
@@ -34,11 +34,13 @@ export const ProjectCard = ({
               icon={<FaCirclePlay size={20} className="mr-2" />}
               label={"Click to see the live demo"}
             />
-            <IconTooltip
-              link={githubLink}
-              icon={<FaGithub size={20} />}
-              label={"Click to see the GitHub repo"}
-            />
+            {githubLink && (
+              <IconTooltip
+                link={githubLink}
+                icon={<FaGithub size={20} />}
+                label={"Click to see the GitHub repo"}
+              />
+            )}
           </div>
         </div>
         <p className="text-[.9rem] text-[#a7a7a7] h-10 my-2">{description}</p>
