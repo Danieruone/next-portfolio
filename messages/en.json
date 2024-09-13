@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "HeroTitle": "Software engineer / Front-end developer",
+    "AboutMe": "About me",
+    "AboutMeDescription": "I’m a Frontend Engineer specializing in React and Next.js, building fast and scalable web applications. Currently expanding into mobile development to create seamless cross-platform experiences.",
+    "MyProjects": "My projects",
+    "WorkTogether": " Let’s work together!",
+    "Contact": "Contact"
+  }
+}

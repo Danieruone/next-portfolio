@@ -1,10 +1,12 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 import { ReactTyped } from "react-typed";
 
 export const Hero = () => {
+  const t = useTranslations("HomePage");
   return (
     <div className="flex flex-col items-center pb-10 text-white">
       <Image
@@ -19,10 +21,7 @@ export const Hero = () => {
         Daniel Mendoza
       </h1>
       <p className="font-semibold">
-        <ReactTyped
-          strings={["Software engineer / Front-end developer"]}
-          typeSpeed={100}
-        />
+        <ReactTyped strings={[t("HeroTitle")]} typeSpeed={100} />
       </p>
     </div>
   );
