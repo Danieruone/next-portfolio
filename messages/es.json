@@ -1,10 +1,26 @@
 {
   "HomePage": {
-    "HeroTitle": "Ingeniero de software / Desarrollador Front-end",
+    "HeroTitle": "Ingeniero de software / Desarrollador front-end",
     "AboutMe": "Sobre mí",
-    "AboutMeDescription": "Soy un Ingeniero Frontend especializado en React y Next.js, creando aplicaciones web rápidas y escalables. Actualmente expandiéndome en el desarrollo móvil para crear experiencias multiplataforma fluidas.",
+    "AboutMeDescription": "Soy un ingeniero front-end especializado en React y Next.js, construyendo aplicaciones web rápidas y escalables. Actualmente, me estoy expandiendo hacia el desarrollo móvil para crear experiencias multiplataforma sin interrupciones.",
     "MyProjects": "Mis proyectos",
-    "WorkTogether": "¡Trabajemos juntos!",
-    "Contact": "Contacto"
+    "WorkTogether": " ¡Trabajemos juntos!",
+    "Contact": "Contacto",
+    "ClickDemo": "Haz clic para ver la demo en vivo",
+    "ClickGitHub": "Haz clic para ver el repositorio de GitHub"
+  },
+  "Projects": {
+    "Acufast": {
+      "Title": "Página de inicio de Acufast",
+      "Description": "Página de inicio para el proyecto de la empresa STgenetics."
+    },
+    "Netflix": {
+      "Title": "Clon de Netflix",
+      "Description": "Un clon perfecto de la interfaz de usuario con funcionalidad de video al pasar el ratón."
+    },
+    "MusicFinder": {
+      "Title": "Buscador de música",
+      "Description": "Un buscador de música que implementa la API de Spotify para buscar cualquier canción."
+    }
   }
 }
