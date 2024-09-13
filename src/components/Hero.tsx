@@ -4,11 +4,15 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 import { ReactTyped } from "react-typed";
+import { LanguageSelector } from "./LanguageSelector";
 
 export const Hero = () => {
   const t = useTranslations("HomePage");
   return (
     <div className="flex flex-col items-center pb-10 text-white">
+      <div className="flex justify-end mb-3 w-full container m-auto">
+        <LanguageSelector />
+      </div>
       <Image
         src={"/profile.webp"}
         width={200}
