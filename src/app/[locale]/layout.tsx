@@ -11,6 +11,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Daniel Mendoza Portfolio",
   description: "Some projects that I worked on. Take a look of my portfolio!",
+  metadataBase: new URL("https://www.darudev.com"),
+  openGraph: {
+    title: "Daniel Mendoza portfolio",
+    description: "This is an awesome website built with Next.js",
+    images: "/opengraph-image.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: "/twitter-image.png",
+  },
 };
 
 export default async function RootLayout({
