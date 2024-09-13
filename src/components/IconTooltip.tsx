@@ -25,9 +25,9 @@ export const IconTooltip = ({
       <div
         className={`${
           showTooltip ? "block" : "hidden"
-        } absolute bg-gray-900 text-center top-[-35px] p-1 rounded-xl left-[-5rem] w-48 text-[.8rem]`}
+        } absolute left-1/2 -translate-x-1/2 top-[-35px] bg-gray-900 text-center p-2 rounded-xl text-[.8rem] whitespace-nowrap`}
       >
-        {label}
+        <p>{label}</p>
       </div>
     </a>
   );

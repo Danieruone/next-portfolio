@@ -26,7 +26,7 @@ export const ProjectCard = ({
 }) => {
   const t = useTranslations("HomePage");
   return (
-    <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 transition-all">
+    <div className="w-80 bg-[#333639] rounded-lg p-2 transition-all">
       <div className="my-3">
         <div className="flex justify-between items-center">
           <h2>{title}</h2>
@@ -45,7 +45,7 @@ export const ProjectCard = ({
             )}
           </div>
         </div>
-        <p className="text-[.9rem] text-[#a7a7a7] h-10 my-2">{description}</p>
+        <p className="text-[.9rem] text-[#a7a7a7] my-2">{description}</p>
       </div>
       <div className="flex justify-center m-1">
         <Image
