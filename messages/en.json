@@ -5,6 +5,22 @@
     "AboutMeDescription": "I’m a Frontend Engineer specializing in React and Next.js, building fast and scalable web applications. Currently expanding into mobile development to create seamless cross-platform experiences.",
     "MyProjects": "My projects",
     "WorkTogether": " Let’s work together!",
-    "Contact": "Contact"
+    "Contact": "Contact",
+    "ClickDemo": "Click to see live demo",
+    "ClickGitHub": "Click to see GitHub repo"
+  },
+  "Projects": {
+    "Acufast": {
+      "Title": "Acufast Landing Page",
+      "Description": "Landing page for STgenetics company project."
+    },
+    "Netflix": {
+      "Title": "Netflix Clone",
+      "Description": "A perfect UI clone with hover video functionality."
+    },
+    "MusicFinder": {
+      "Title": "Music Finder",
+      "Description": "A music finder implementing the Spotify API to search any song."
+    }
   }
 }

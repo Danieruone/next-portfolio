@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 // components
 import { IconTooltip } from "./IconTooltip";
@@ -23,6 +24,7 @@ export const ProjectCard = ({
   projectLink: string;
   githubLink?: string;
 }) => {
+  const t = useTranslations("HomePage");
   return (
     <div className="w-80 h-80 bg-[#333639] rounded-lg px-2 transition-all">
       <div className="my-3">
@@ -32,13 +34,13 @@ export const ProjectCard = ({
             <IconTooltip
               link={projectLink}
               icon={<FaCirclePlay size={20} className="mr-2" />}
-              label={"Click to see the live demo"}
+              label={t("ClickDemo")}
             />
             {githubLink && (
               <IconTooltip
                 link={githubLink}
                 icon={<FaGithub size={20} />}
-                label={"Click to see the GitHub repo"}
+                label={t("ClickGitHub")}
               />
             )}
           </div>
