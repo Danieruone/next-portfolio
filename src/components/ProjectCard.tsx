@@ -56,10 +56,10 @@ export const ProjectCard = ({
           className="rounded-lg"
         />
       </div>
-      <div className="mt-3">
+      <div className="mt-5">
         {techStack.map((technology, key) => (
           <h3
-            className="border border-gray-500 inline-block px-2 rounded-xl text-sm font-light mr-1 text-[#a7a7a7]"
+            className="border border-gray-500 inline-block px-2 rounded-xl text-sm font-light mr-2 text-[#a7a7a7] text-[.8rem]"
             key={key}
           >
             {technology}
