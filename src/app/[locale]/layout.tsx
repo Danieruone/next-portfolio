@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.darudev.com"),
   openGraph: {
     title: "Daniel Mendoza portfolio",
-    description: "This is an awesome website built with Next.js",
+    description: "Some projects that I worked on. Take a look of my portfolio!",
     images: "/opengraph-image.png",
   },
   twitter: {
