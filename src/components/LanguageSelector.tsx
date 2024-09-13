@@ -20,7 +20,7 @@ export const LanguageSelector = () => {
       className="cursor-pointer flex items-center"
       onClick={() => setIsEnglish(!isEnglish)}
     >
-      <GrLanguage size={30} className="mr-2" />
+      <GrLanguage size={25} className="mr-2" />
       <span>{pathname.includes("en") ? "English" : "Español"}</span>
     </div>
   );
