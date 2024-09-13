@@ -27,7 +27,7 @@ export const ProjectCard = ({
   const t = useTranslations("HomePage");
   return (
     <div className="w-80 bg-[#333639] rounded-lg p-2 transition-all">
-      <div className="my-3">
+      <div>
         <div className="flex justify-between items-center">
           <h2>{title}</h2>
           <div className="flex">
@@ -45,9 +45,9 @@ export const ProjectCard = ({
             )}
           </div>
         </div>
-        <p className="text-[.9rem] text-[#a7a7a7] my-2">{description}</p>
+        <p className="text-[.9rem] text-[#a7a7a7] my-2 mb-3">{description}</p>
       </div>
-      <div className="flex justify-center m-1">
+      <div className="flex justify-center">
         <Image
           src={image}
           width={400}
@@ -56,7 +56,7 @@ export const ProjectCard = ({
           className="rounded-lg"
         />
       </div>
-      <div className="mt-5">
+      <div className="mt-3">
         {techStack.map((technology, key) => (
           <h3
             className="border border-gray-500 inline-block px-2 rounded-xl text-sm font-light mr-1 text-[#a7a7a7]"
