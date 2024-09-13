@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "HeroTitle": "Ingeniero de software / Desarrollador Front-end",
+    "AboutMe": "Sobre mí",
+    "AboutMeDescription": "Soy un Ingeniero Frontend especializado en React y Next.js, creando aplicaciones web rápidas y escalables. Actualmente expandiéndome en el desarrollo móvil para crear experiencias multiplataforma fluidas.",
+    "MyProjects": "Mis proyectos",
+    "WorkTogether": "¡Trabajemos juntos!",
+    "Contact": "Contacto"
+  }
+}
